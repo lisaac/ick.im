@@ -15,26 +15,20 @@ a{
 	text-decoration: none;
 	color:#666;
 }
-	a:hover{
+a:hover{
 		color:#999;
 	}
-p{
-	text-align: center;
-	font-size: 7em;
-}
 
 .wrap{
 	max-width: 800px;
 	margin:180px auto;
-	
 }
 
 .type-wrap{
 	margin:10px auto;
 	padding:20px;
 	font-family: 'Fredericka the Great', cursive;
-	font-size: 7em;
-	
+	font-size: 6em;
 	text-align: center;
 }
 
