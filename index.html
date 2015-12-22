@@ -8,7 +8,9 @@
     <script src="js/typed.js" type="text/javascript"></script>
     <script>
     $(function(){
+        var elem;
 
+        elem = $('#typed');
         $("#typed").typed({
             // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
             
@@ -18,9 +20,15 @@
             backSpeed: 50,
             backDelay: 1000,
             loop: false,
+            showCursor: true,
             contentType: 'html', // or text
             // defaults to false for infinite loop
             loopCount: false,
+            onStringTyped: function(lines) {
+                if (lines == 2){
+                    return elem.siblings('.typed-cursor').remove();
+                }
+            },
             callback: function(){ foo(); },
             resetCallback: function() { newTyped(); }
         });
