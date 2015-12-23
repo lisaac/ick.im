@@ -1,26 +1,16 @@
 /*@import url(https://fonts.lug.ustc.edu.cn/css?family=Fredericka+the+Great|Lato:300);*/
 @font-face {
     font-family: 'fredericka_the_greatregular';
-    src: url('./font/frederickathegreat-regular-webfont.eot');
-    src: url('./font/frederickathegreat-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./font/frederickathegreat-regular-webfont.woff2') format('woff2'),
-         url('./font/frederickathegreat-regular-webfont.woff') format('woff'),
-         url('./font/frederickathegreat-regular-webfont.ttf') format('truetype');
+    src: url('./font/frederickathegreat-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'latolight';
-    src: url('./font/lato-light-webfont.eot');
-    src: url('./font/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./font/lato-light-webfont.woff2') format('woff2'),
-         url('./font/lato-light-webfont.woff') format('woff'),
-         url('./font/lato-light-webfont.ttf') format('truetype'),
-         url('./font/lato-light-webfont.svg#latolight') format('svg');
+    src: url('./font/lato-light-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-
 }
 
 *{

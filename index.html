@@ -9,7 +9,6 @@
     <script>
     window.onload = (function(){
         var elem;
-
         elem = $('#typed');
         $("#typed").typed({
             strings: ["i'm isaac", "i'm ick.", "^800ick.im"],
@@ -20,8 +19,7 @@
             backDelay: 1000,
             loop: false,
             showCursor: true,
-            contentType: 'html', // or text
-            // defaults to false for infinite loop
+            contentType: 'text', // or html
             loopCount: false,
             onStringTyped: function(lines) {
                 if (lines == 2){
@@ -31,17 +29,12 @@
             callback: function(){ foo(); },
             resetCallback: function() { newTyped(); }
         });
-
         $(".reset").click(function(){
             $("#typed").typed('reset');
         });
-
     });
-
     function newTyped(){ /* A new typed object */ }
-
     function foo(){ console.log("Callback"); }
-
     </script>
     <link href="main.css" rel="stylesheet"/>
     <style>
@@ -83,16 +76,13 @@
     </style>
 </head>
 <body>
-
     <div class="wrap">
         <div class="type-wrap">
             <span id="typed" style="white-space:pre;"></span>
         </div>
-
         <div class="links">
             <a href="http://blog.ick.im">Blog</a>　|　<a href="http://love.ick.im">Love</a>　|　<a href="http://github.com/lisaac">Github</a>　|　<a href="https://plus.google.com/+lisaac">Google+</a>　|　<a href="http://weibo.com/lisaac">Weibo</a>
         </div>
     </div>
-
 </body>
 </html>
