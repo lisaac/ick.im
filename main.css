@@ -1,14 +1,14 @@
 /*@import url(https://fonts.lug.ustc.edu.cn/css?family=Fredericka+the+Great|Lato:300);*/
 @font-face {
     font-family: 'fredericka_the_greatregular';
-    src: url('./font/frederickathegreat-regular-webfont.woff2') format('woff2');
+    src: url('./font/frederickathegreat-regular-webfont.woff') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'latolight';
-    src: url('./font/lato-light-webfont.woff2') format('woff2');
+    src: url('./font/lato-light-webfont.woff') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
