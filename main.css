@@ -41,7 +41,7 @@ a{
 a:hover{
 		color:#999;
 	}
-
+.p{display: none;}
 .wrap{
 	max-width: 800px;
 	margin:180px auto;
