@@ -1,4 +1,27 @@
-@import url(https://fonts.lug.ustc.edu.cn/css?family=Fredericka+the+Great|Lato:300);
+/*@import url(https://fonts.lug.ustc.edu.cn/css?family=Fredericka+the+Great|Lato:300);*/
+@font-face {
+    font-family: 'fredericka_the_greatregular';
+    src: url('./font/frederickathegreat-regular-webfont.eot');
+    src: url('./font/frederickathegreat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font/frederickathegreat-regular-webfont.woff2') format('woff2'),
+         url('./font/frederickathegreat-regular-webfont.woff') format('woff'),
+         url('./font/frederickathegreat-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('./font/lato-light-webfont.eot');
+    src: url('./font/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font/lato-light-webfont.woff2') format('woff2'),
+         url('./font/lato-light-webfont.woff') format('woff'),
+         url('./font/lato-light-webfont.ttf') format('truetype'),
+         url('./font/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 *{
 	padding:0;
@@ -6,7 +29,7 @@
 }
 
 body{
-	font: 16px/1.8 "Lato", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", arial, sans-serif;
+	font: 16px/1.8 "latolight", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", arial, sans-serif;
 	font-size: 100%;
 	background:#f8f8f8;
 }
@@ -27,7 +50,7 @@ a:hover{
 .type-wrap{
 	margin:10px auto;
 	padding:20px;
-	font-family: 'Fredericka the Great', cursive;
+	font-family: 'fredericka_the_greatregular', cursive;
 	font-size: 6em;
 	text-align: center;
 }
